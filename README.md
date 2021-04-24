@@ -29,6 +29,7 @@ Using neural network analysis, design and train a deep learning neural network t
 - Converted the outputlayer to use a "tanh" function instead of a "sigmoid" function
 
 ## Summary: 
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
-- Remove Status
-- Bin Ask Amount
+Overall results failed to meet the target of 75% accuracy.  Going forward, additional optimization steps could include: 
+- Further simplify input variables, specifically removing Status
+- Simplify inputs by binning Ask Amount
+- Use different functions in the hidden layers to determine if higher accuracies are observed
